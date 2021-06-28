@@ -3,7 +3,7 @@ export default function Intro() {
         section className = "flex-col md:flex-row flex items-center md:justify-between mt-16 mb-16 md:mb-12" >
         <
         h1 className = "text-6xl md:text-8xl font-bold tracking-tighter leading-tight md:pr-8" >
-        Zype <
+        <img src="https://res.cloudinary.com/zype/image/upload/e_vectorize:detail:1.0:corners:40:colors:2/v1624897334/logoShort.png_e6ot4x.svg" alt="Zype"/><
         /h1> <
         /section>
     )
