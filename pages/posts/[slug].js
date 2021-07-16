@@ -118,11 +118,6 @@ export default function Post({ subscription, preview }) {
 
   return (
     <Layout preview={preview}>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/highlight.min.js"></script>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/styles/github-dark.min.css" />
-      <script>
-        hljs.highlightAll()
-      </script>
       <Head>{renderMetaTags(metaTags)}</Head>
       <Container>
         <Header />
