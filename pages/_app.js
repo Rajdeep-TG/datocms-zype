@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }) {
             </script>
             <link
             rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/styles/default.min.css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/styles/github-dark.min.css"
             crossOrigin="anonymous"
             referrerPolicy="no-referrer"
             />
