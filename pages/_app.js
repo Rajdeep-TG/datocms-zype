@@ -12,25 +12,11 @@ function MyApp({ Component, pageProps }) {
             content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
             />
             <meta name="description" content="Official Blog by Zype" />
-            <link rel="manifest" href="/manifest.json" />
-            <link rel="manifest" href="/manifest.json" />
-            <link
-            href="https://www.datocms-assets.com/50309/1624880381-logoshort-png.png?h=16&w=16"
-            rel="icon"
-            type="image/png"
-            sizes="16x16"
-            />
-            <link
-            href="https://www.datocms-assets.com/50309/1624880381-logoshort-png.png?h=32&w=32"
-            rel="icon"
-            type="image/png"
-            sizes="32x32"
-            />
-            <meta name="theme-color" content="transparent" />
             <script
             src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/highlight.min.js"
-            integrity="sha512-z+/WWfyD5tccCukM4VvONpEtLmbAm5LDu7eKiyMQJ9m7OfPEDL7gENyDRL3Yfe8XAuGsS2fS4xSMnl6d30kqGQ==" crossorigin="anonymous"
-            referrerpolicy="no-referrer">
+            integrity="sha512-z+/WWfyD5tccCukM4VvONpEtLmbAm5LDu7eKiyMQJ9m7OfPEDL7gENyDRL3Yfe8XAuGsS2fS4xSMnl6d30kqGQ=="
+            crossOrigin="anonymous"
+            referrerPolicy="no-referrer">
             </script>
             <link
             rel="stylesheet"
