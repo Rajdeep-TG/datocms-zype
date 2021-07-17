@@ -9,7 +9,7 @@
 
 /* Code Block */
 
-pre code {
+pre::before {
     background-color: #eff0f1;
     padding: 50px;
     border-radius: 4px;
