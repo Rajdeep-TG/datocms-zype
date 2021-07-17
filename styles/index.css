@@ -9,8 +9,8 @@
 
 /* Code Block */
 
-pre::before {
-    background-color: #eff0f1;
+pre {
+    background-color: transparent;
     padding: 50px;
     border-radius: 4px;
     overflow: auto;
