@@ -1,8 +1,14 @@
-/* purgecss tart ignore */
+/* purgecss start ignore */
 
 @tailwind base;
 @tailwind components;
 
 /* purgecss end ignore */
 
-@tailwind utilities
+@tailwind utilities;
+
+/* Code Blocks */
+
+pre code.hljs {
+    background-color: #1f2937;
+}
