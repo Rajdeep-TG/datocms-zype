@@ -1,0 +1,37 @@
+{
+    "dir": "ltr",
+    "lang": "en",
+    "name": "Zype",
+    "short_name": "Zype",
+    "scope": "/",
+    "display": "standalone",
+    "start_url": "https://zype.cf/",
+    "background_color": "transparent",
+    "theme_color": "transparent",
+    "description": "Official Blog by Zype",
+    "orientation": "portrait",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [{
+            "src": "https://www.datocms-assets.com/50309/1624880381-logoshort-png.png?h=16&w=16",
+            "sizes": "16x16",
+            "type": false
+        },
+        {
+            "src": "https://www.datocms-assets.com/50309/1624880381-logoshort-png.png?h=32&w=32",
+            "sizes": "32x32",
+            "type": false
+        },
+        {
+            "src": "https://www.datocms-assets.com/50309/1624880381-logoshort-png.png?h=96&w=96",
+            "sizes": "96x96",
+            "type": false
+        },
+        {
+            "src": "https://www.datocms-assets.com/50309/1624880381-logoshort-png.png?h=192&w=192",
+            "sizes": "192x192",
+            "type": false
+        }
+    ],
+    "screenshots": []
+}

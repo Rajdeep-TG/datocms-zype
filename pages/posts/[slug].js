@@ -12,7 +12,6 @@ import { metaTagsFragment, responsiveImageFragment } from "../../lib/fragments";
 
 export async function getStaticPaths() {
   const data = await request({ query: `{ allPosts { slug } }` });
-
   return {
     paths: data.allPosts.map((post) => `/posts/${post.slug}`),
     fallback: false,
@@ -118,7 +117,9 @@ export default function Post({ subscription, preview }) {
 
   return (
     <Layout preview={preview}>
-      <Head>{renderMetaTags(metaTags)}</Head>
+      <Head>
+        {renderMetaTags(metaTags)}
+      </Head>
       <Container>
         <Header />
         <article>
